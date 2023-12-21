@@ -1,6 +1,6 @@
 <?php 
 session_start();
-$connection = pg_connect("host=localhost dbname=finance_tracker user=postgres password=postgres");
+$connection = pg_connect("host=localhost dbname=finance_tracker user=Aravind password=Arvi@194");
 
 if (!$connection) {
     echo 'Error while connecting to the database.';
