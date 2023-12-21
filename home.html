@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance Tracker - Home</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("https://wallpapercave.com/dwp2x/wp3404280.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+        }
+
+        /* Header Styles */
+        header {
+            background-image: linear-gradient(to right, rgba(4, 37, 107, 0.942), rgb(228, 225, 225));
+            color: #fff;
+            padding: 20px;
+            text-align: right;
+            box-shadow: 0px 0px 10px rgba(1, 26, 61, 0.188);
+        }
+
+        header .auth-buttons {
+            display: inline-block;
+            margin-top: -5px; /* Adjust vertical alignment */
+        }
+
+        header .auth-buttons a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+            background-color: #053a72; /* Blue Button Color */
+            margin-left: 10px; /* Adjust spacing between buttons */
+        }
+
+        header .auth-buttons a:hover {
+            background-color: #01060c; /* Darker Blue on Hover */
+        }
+
+        /* Navigation Styles */
+        nav {
+            background-color: white;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+            opacity: 75%;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #053a72; /* Blue Color */
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        nav ul li a:hover {
+            background-color: #f8f1f1;
+            color: #01060c; /* Darker Blue on Hover */
+        }
+
+        /* Main Content Styles */
+        main {
+            padding: 40px;
+            text-align: center;
+            color: #e9e4e4;
+            transition: transform 0.3s;
+        }
+
+        main h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        main p {
+            font-size: 1.2em;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="auth-buttons">
+            <a href="login.html">Login</a>
+            <a href="signup.html">Signup</a>
+        </div>
+        <h1 style="text-align: center;">Welcome to Finance Tracker</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="services1.html">Services</a></li>
+            <li><a href="analysis.html">Analysis</a>
+        </ul>
+    </nav>
+    <main>
+        <h1>Effortlessly Manage Your Finances</h1>
+        <p>Track your expenses and income efficiently with our powerful finance tracker.</p>
+    </main>
+
+    <footer>
+        <p>Project by: Gadhiraju Dinesh - 2022115094 | Aravind - 2022115121</p>
+    </footer>
+</body>
+
+</html>
