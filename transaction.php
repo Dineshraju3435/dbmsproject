@@ -1,10 +1,11 @@
 <?php 
-
+session_sort();
 $connection = pg_connect("host=financetrackergda.postgres.database.azure.com dbname=finance_tracker user=Aravind password=Arvi@194");
 if (!$connection){
     echo"connection failed";
     exit;
 }else{
+    $currency_id = $_post["company_id"];
     $tran_type=$_POST["transactionType"];
     $tran_amount=$_POST["amount"];
     $tran_date=$_POST["transactionDate"];
