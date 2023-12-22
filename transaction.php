@@ -5,7 +5,7 @@ if (!$connection){
     echo"connection failed";
     exit;
 }else{
-    $currency_id = $_POST["company_id"];
+    $currency_id = $_SESSION["company_id"];
     $tran_type=$_POST["transactionType"];
     $tran_amount=$_POST["amount"];
     $tran_date=$_POST["transactionDate"];
