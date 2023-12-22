@@ -1,8 +1,9 @@
 <?php 
 session_start();
-$connection = pg_connect("host=financetrackergda.postgres.database.azure.com  dbname=finance_tracker  user=Aravind  password=Arvi@194");
-if (!$connection){
-    echo"connection failed";
+$connection = pg_connect("host=financetrackergda.postgres.database.azure.com dbname=finance_tracker user=Aravind password=Arvi@194");
+
+if (!$connection) {
+    echo "An error occurred.<br>";
     exit;
 }else{
     $currency_id = $_SESSION["company_id"];
